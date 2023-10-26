@@ -1,0 +1,57 @@
+[
+{
+    "id": 1,
+    "name": "",
+  "username": "Ever wondered what's on a Big Mac®? The McDonald's Big Mac® is a 100% beef burger with a taste like no other. The mouthwatering perfection starts with two 100% pure all beef patties and Big Mac® sauce sandwiched between a sesame seed bun. It’s topped off with pickles, crisp shredded lettuce, finely chopped onion, and a slice of American cheese. It contains no artificial flavors, preservatives, or added colors from artificial sources. Our pickle contains an artificial preservative, so skip it if you like.",
+    "email": "Big Mac®"
+},
+ {
+"id": 2,
+"name": "",
+"username": "With our Spicy Pepper Sauce topping the southern style fried chicken fillet on a toasted potato roll, this sandwich was made for those who like it crispy, juicy, tender and hot.\nThe Spicy McCrispy™ has 530 calories. Enjoy it on its own or grab a Spicy McCrispy™ meal with our World Famous Fries® and a medium Sweet Tea.\nCheck out all the McCrispy™ sandwiches and order one today from our full menu in the app for McDelivery® or pickup.*\n *Mobile Order & Pay and McDelivery at participating McDonald's. McD app download and registration required.",
+"email": "Spicy McCrispy™"
+
+},
+{
+"id": 3,
+"name": "",
+"username": "McDonald's World Famous Fries® are made with premium potatoes such as the Russet Burbank and the Shepody. With 0g of trans fat per labeled serving, these epic fries are crispy and golden on the outside and fluffy on the inside.\nBest of all, you can get medium Fries for free every Friday with any $1 purchase, exclusively in the McDonald’s app.* Grab our World Famous Fries and pair them with one of our classic McDonald’s Burgers. There are 230 calories in a small McDonald's Fries. Order yours today with McDelivery® or get them with curbside pickup using Mobile Order & Pay!\nDownload the McDonald’s app and earn points on every order with MyMcDonald's Rewards to redeem for a free World Famous Fries®.^",
+"email": "World Famous Fries®"
+
+},
+{
+"id": 4,
+"name": "",
+"username": "Each Quarter Pounder® with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. It’s seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty American cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources. **Our pickle contains an artificial preservative, so skip it if you like. A Quarter Pounder® with Cheese has 520 Calories. Order one today with Mobile Order & Pay!\n\nDownload the McDonald’s app and earn points on every order with MyMcDonald's Rewards to redeem for a free Quarter Pounder with Cheese.^",
+"email": "Quarter Pounder®* with Cheese"
+
+
+},
+
+{
+"id": 5,
+"name": "",
+"username": "Enjoy tender, juicy Chicken McNuggets® with your favorite dipping sauces. Wondering what are McDonald's Chicken Nuggets made of? Chicken McNuggets® are made with all white meat chicken and no artificial colors, flavors, or preservatives. There are 170 calories in a 4-piece Chicken McNuggets®. Get Chicken Nuggets at the McDonald's near you or order online using the McDonald's app for Drive Thru and Curbside pickup or contactless Mobile Order & Pay.",
+"email": "Chicken McNuggets®"
+
+},
+{
+"id": 6,
+"name": "",
+"username": "Enjoy a refreshingly cool Iced Coffee at McDonald’s! Our McCafé Iced Coffee recipe is made with 100% Arabica beans, cream, and your choice of flavored coffee syrup—Caramel, Hazelnut, French Vanilla, and Sugar-Free French Vanilla.* A fan of black coffee? Get it without the sugar or cream to refresh your mornings with a cool Black Iced Coffee.\nAvailable in small, medium, and large sizes. There are 140 calories in a small McCafé Iced Coffee with cream. Order an Iced Coffee today from our full menu in the app using contactless Mobile Order & Pay^ with Curbside pickup.",
+"email": "Iced Coffee"
+
+},
+{
+"id": 7,
+"name": "",
+"username": "Satisfy your McDonald's breakfast cravings with our Egg McMuffin® breakfast sandwich—it’s an excellent source of protein and oh so delicious. McDonald's Egg McMuffin® recipe features a freshly cracked Grade A egg placed on a toasted English Muffin topped with real butter, lean Canadian bacon, and melty American cheese. There are 310 calories in an Egg McMuffin® from McDonald’s.\nEnjoy it on its own or grab an Egg McMuffin® Meal with crispy Hash Browns and a small McCafé® Premium Roast Coffee.",
+"email": "Egg McMuffin®"
+},
+  {
+    "id": 8,
+    "name": "",
+    "username": "Start your day off with a loaded Egg and Sausage Burrito from the McDonald's breakfast menu McDonald's Breakfast Burrito recipe is loaded with fluffy scrambled egg, pork sausage, melty cheese, green chiles, and onion! It's wrapped in a soft tortilla, making it the perfect grab and go breakfast. There are 310 calories in a McDonald's Sausage breakfast burrito. Enjoy it as a snack or grab a Sausage Burrito Meal with a crispy golden Hash Browns and a small McCafé® Premium Roast Coffee.\nOrder a Breakfast Burrito using the McDonald's app to Mobile Order & Pay*! Download the McDonald’s app and earn points on eligible orders with MyMcDonald's Rewards to redeem for a free Sausage Burrito.^",
+    "email": "Sausage Burrito"
+  }
+]

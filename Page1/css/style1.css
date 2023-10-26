@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+header {
+	margin-top: -73px; /*отступ*/
+	position: fixed;
+	background-color: #fc2803;
+	height: 84px; /*высота*/
+	width: 101%;/*Длина*/
+	box-shadow: 0 13px 4px -9px rgba(207, 207, 207, 0.4);
+	z-index: 1; /*расположение по оси z*/
+	margin-left: -8px;  /*отступ*/
+}
+#logo {
+	padding: 9px; /*отступ*/
+
+   /* width: 20px; */
+   height: 69px;
+}
+a {
+	text-decoration: none; /*убирает подчеркивание*/
+}
+.menu {
+  color: #fcba03; /*цвет шрифта*/
+  background: #fc2803;  /*цвет фонв*/
+  padding: 25.6px;  /*отступ*/
+  position: relative; bottom: 57px;	/*относительное позионирование*/
+  font-family: 'Comfortaa', cursive; /*шрифт*/
+ 	font-size: 22px; /*размер текста*/
+ 	margin-left: -6px;  /*отступ*/
+}
+.menu:after {
+	display: block; /*блок элемента*/
+	position: absolute; /*абсолютная позиция*/
+	left: 0; /*направление подчеркивания*/
+	width: 0;/*длинна линии до наведения курсора*/
+	height: 2px; /*ширина линии*/
+	background-color: white; /*цвет линии*/
+	content: ""; /*отстутвует*/
+	transition: 0.7s; /*задаём время анимации*/
+}
+.menu:hover:after,.menu:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+.menu:hover {
+   color: white; /*цвет текста*/
+   transition: 0.7s;/*задержка*/
+}
+#here {
+	color: white; /*цвет текста*/
+}
+.dropbutton {
+  color: white;  /*цвет текста*/
+  background: #fc2803; /*цвета фона*/
+  padding: 25.6px;   /*отступ*/
+  transition: 0.2s linear; /*задержка*/	
+  font-family: 'Comfortaa', cursive;
+ 	font-size: 22px; /*размер текста*/
+ 	border: none; /*убирает бордер*/
+ 	position: relative; left: 1375px; bottom: 105.5px;	/*относительное позионирование*/
+}
+
+.dropelements {
+    display: none;
+    position: relative; left: 1376px; bottom: 105.5px;
+ 	 width: 100%; /*Длина*/
+    box-shadow: 3px 5px 11px 0px rgba(207, 207, 207, 0.4);
+    z-index: 1;
+}
+.dropelements a {
+    color: white; 
+    background: black;
+    padding: 8px;  /*отступ*/	 
+	 font-family: 'Comfortaa', cursive;
+   	font-size: 20px;
+    display: block;
+}
+.dropelements a:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+	border: 2px solid #094D74;
+}
+.dropdown:hover .dropelements {
+	display: block;
+}
+.dropdown:hover .dropbutton {
+	color: black; /**/
+  background: white; /**/
+  transition: 0.5s;
+}
+
+
+/*Подвал сайта (footer)*/
+footer {
+   width: 100%; /*Длина*/
+   height: 400px; /*высота*/
+   background-color: #fc2803;
+}
+.foot_block {
+   width: 18%; /*Длина*/
+   height: 350px; /*высота*/
+   display: inline-block;
+   margin-left: 55px;  /*отступ*/
+   margin-top: 25px;  /*отступ*/
+}
+.foot_block:first-child {
+   position: relative; bottom: 45px;
+}
+.foot_block:last-child {
+   position: relative; top: -215px;
+}
+.foot_content {
+   color: white;
+   font-family: calibri;
+}
+h4 {
+   color: white;
+   font-family: 'Comfortaa', cursive;
+   font-size: 21px;
+}
+#line2 {
+   width: 155px; /*Длина*/
+   border: 1px solid white;
+   float: left;
+}
+#line3 {
+   width: 1200px; /*Длина*/
+   border: 1px solid gray;
+}
+footer div:last-child {
+   position: relative; top: -75px;
+   margin-bottom: -245px;  /*отступ*/
+}
+#map {
+   width: 250px; /*Длина*/
+   height: 200px; /*высота*/
+   position: relative; top: 0px;
+}
+.icons {
+   width: 30px;
+   margin: 5px;
+}
+.lastinfa {
+   margin-left: 25px;  /*отступ*/
+   color: white;
+   font-family: calibri;
+}
+.lastinfa:nth-child(2) {
+   margin-left: 180px;  /*отступ*/
+   
+}
+.lastinfa:nth-child(3) {
+   margin-left: 540px;  /*отступ*/
+}
+.blue {
+	color: blue;
+}
+
+
+#big_img {
+	background: url(https://w0.peakpx.com/wallpaper/770/386/HD-wallpaper-burger-3d-icon-orange-background-3d-symbols-burger-fast-food-icons-3d-icons-burger-sign-fast-food-3d-icons.jpg); /*Фон(гифка)*/
+	background-attachment: fixed;
+	width: 100%; /*Длина*/
+	height: 750px; /*высота*/
+	background-size: cover; /*Изображение заполняется полностью*/
+}
+h1 {
+		color: white;/*Цвет текста*/
+		text-align: center; /*Расположение текста*/
+		font-size: 100px;
+		font-family: 'Comfortaa', cursive;
+		position: relative; top: 300px;
+}
+#latest_news {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 25px;
+	margin-top: 70px;
+	margin-bottom: 45px;
+}
+hr {
+	width: 180px;
+	border: 4px solid #fcba03;	/*Граница*/
+}
+#latest_news h2 {
+	letter-spacing: 7px; /*Растояние между буквами*/
+}
+.read_more {
+	width: 140px;
+	height: 41px; /*высота*/
+	border-radius: 15px; /*Закругление углов*/
+	background-color: #fcba03; /*Цвет фона*/
+	border: none;
+	color: white;/*Цвет текста*/
+	font-family: calibri;
+	font-size: 16px; /*Размер шрифта*/
+	color: white;/*Цвет текста*/
+	font-family: calibri;
+	font-size: 16px; /*Размер шрифта*/
+	cursor: pointer;
+}
+.read_more:hover {
+	background-color: white;
+	border: 2px solid #fcba03;
+	color: #fcba03;
+	transition: 0.3s;
+}
+#what_space {
+	background: url(../../images/what.jpg);
+	width: 100%;
+	height: 900px; /*высота*/
+	background-size: cover;
+}
+#what_space button:hover {
+	background-color: black; /*цвет фона*/
+	border: 2px solid #fcba03;
+	color: #fcba03;
+	transition: 0.3s;
+}
+.word_space {
+	color: white;/*Цвет текста*/
+	font-size: 70px; /*Размер шрифта*/ 
+	font-family: century gothic;
+	padding-left: 720px;
+	padding-top: 100px;
+}
+#what_space button {
+	position: relative; left: 1170px; top: 40px;
+}
+.main_infa {
+	color: white;/*Цвет текста*/
+	font-size: 20px; /*Размер шрифта*/
+	font-family: century gothic;
+	width: 400px;
+	text-align: right;
+	margin-left: 890px;
+}
+#registration {
+	width: 100%;
+	height: 100px;
+	background-color: #fcba03; /*цвет фона*/
+	font-family: century gothic;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -32px;
+}
+#registration a {
+	color: white; /*цвет шрифта*/
+	position: relative; top: 22px;
+}
+#registration a:hover {
+	color: #fcba03; /*цвет шрифта*/
+	transition: 0.5s;
+}
+.btn2 {
+   border: none;
+   width: 150px;
+   height: 30px; /*высота*/
+   background-color: #fcba03; /*цвет фона*/
+   border-radius: 7px;
+   color: white;
+   font-family: calibri;
+}
+.btn2:hover {
+   border:1px solid #fcba03;
+   background-color: white; /*цвет фона*/
+   color: #fcba03; /*цвет шрифта*/
+   transition: 0.3s;
+   cursor: pointer;
+}
+#about {
+   width: 100%;
+   height: 650px; /*высота*/
+   background-color: #fcba03;
+}
+.usualTitle2 {
+   font-family: 'Comfortaa', cursive;
+   color: white; /*цвет шрифта*/
+   font-size: 35px;
+   text-align: center;
+   position: relative; top: 25px;
+}
+#about img {
+   width: 600px;
+   height: 400px;
+   margin: 25px 50px 0px 129px;
+}
+.history {
+   width: 600px;
+   height: 400px;
+   background-color: white; /*цвет шрифта*/
+   display: inline-block;
+   position: relative; bottom: 50px;
+}
+.smallTitle {
+   font-family: calibri;
+   color: white; /*цвет шрифта*/
+   font-size: 21px; /*размер шрифта*/
+   text-align: center;
+   padding-top: 45px; /*отступ*/
+   margin-bottom: -20px;  /*отступ*/
+}
+.history p {
+   font-family: calibri;
+   font-size: 21px;
+   width: 450px;
+   margin-top: 60px;
+}
+.change {
+   width: 24px;
+   height: 24px;/*высота*/
+   border-radius: 12px;
+   margin: 33px 3px 0px 3px;
+}
+#persons {
+   width: 500px;
+   padding: 100px 50px 40px 70px;
+}
+.usualTitle3 {
+   font-family: 'Comfortaa', cursive;
+   color: #fcba03; /*цвет шрифта*/
+   font-size: 39px;
+   font-weight: bolder;
+}
+#persons p{
+   font-family: calibri;
+   font-size: 19px;
+}
+.famous {
+   margin: -250px 0px 100px 700px;
+}
+.famous img {
+   margin-right: 30px;
+   border-radius: 7px;
+   box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+.famous img:hover {
+   transform: scale(1.03);
+   transition: 0.3s;
+}
+#aboutUs {
+width: 100%;
+height: 400px;
+background: linear-gradient( 45deg,#fcba03, #fcbe42); /*цвет фона*/
+}
+.usualTitle4 {
+   font-family: calibri;
+   color: #E3FF38; /*цвет шрифта*/
+   font-size: 75px;
+   text-align: center;
+}
+.infa {
+   display: inline-block;
+   width: 300px;
+}
+.infa:nth-child(2) {
+   margin-left: 133px;
+}
+.infa p{
+   text-align: center;
+   font-family: calibri;
+   color: white; /*цвет шрифта*/
+   font-weight: bolder;
+   font-size: 21px;
+}
+.usualTitle1 {
+   font-size: 44px;
+   color: #444444; /*цвет шрифта*/
+   font-family: 'Comfortaa', cursive;
+}
+
+.weather-card {
+    width: 400px; /*Длина*/
+    height: 210px; /*высота*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.city-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    color: #fafafa;
+}
+.weather-icon {
+    font-size: 20px;
+
+    margin-bottom: -20px;
+}
+.temperature {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 90px;
+    font-family: 'Comfortaa', cursive;
+    color: antiquewhite;
+}
+.weather-description {
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    color: #fcba03;
+    caret-color: #094D74;
+}
+
+div.sketchfab-embed-wrapper{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.sprite-container{
+   box-sizing: border-box;
+   width: 50px;
+}
+
+.sprite-image {
+    height: 50px;
+    width: 70px;
+    background: url(/images/burger.png) 0px 0px;
+    animation: play 0.8s steps(16) infinite,
+    step 10s linear infinite;
+    /* position: absolute; */
+    left: 0;
+}
+
+
+
+@keyframes step {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.png-container {
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-top: 3px;
+   margin-left: 59px;
+   width: 20px; /* Ширина контейнера будет равна ширине экрана */
+   height: 100%; /* Высота контейнера будет равна высоте экрана */
+
+   z-index: 1; /* Установите z-index, чтобы контейнер был наверху других элементов */
+ }

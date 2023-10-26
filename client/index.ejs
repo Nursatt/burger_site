@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><%= title %>></title>
+    <link rel="stylesheet" href="/style1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=bcdcd57d-875d-4b3a-9385-d3a3ee51eadd&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+<body>
+<%- include('./assets/views/partials/nav.ejs') %>
+
+    <div class="png-container">
+        <div class="sprite-container">
+            <div class="sprite-image"></div>
+        </div>
+    </div>
+
+    <div id="big_img">
+        <h1>Bizben birge tamaqtan</h1>
+    </div>
+    <div id="registration">
+        <a href="../Registration/index.html">
+            <h2>Tirkeý</h2>
+        </a>
+    </div>
+    <div id="latest_news">
+        <h2>SOŃǴY JAŃALYQTAR</h2>
+        <hr>
+        <h5>Naýryz 14, 2023</h5>
+        <h3>RODNOI BÝRGER QAIYRYMDYLYQ WOPPER– "WOPPER COMBO 61" ISKE QOSTY»</h3>
+        <a target="_blank" href="https://www.instagram.com/rodnoiburger/"><button
+				class="read_more">Tolyq oqý</button></a>
+    </div>
+    <div id="about">
+        <p class="smallTitle">RODNOI BURGER®</p>
+        <h2 class="usualTitle2">TÝRALY</h2>
+        <img src="https://joinposter.com/i/site/blog/fastfood11.jpg" alt="The picture was not found">
+        <div class="history" id="histoty1">
+            <center>
+                <h2 class="usualTitle1" id="title2020_2021">2021</h2>
+                <p id="word2020_2021">RODNOI BURGER® qazaqstandyq naryqqa 2020 jyly shyqty. Qazirgi ýaqytta brend Respýblıkanyń 9 qalasynda 32 meıramhanamen usynylǵan.</p>
+                <button onclick="year2020()" id="btn2020" class="change btn2"></button>
+                <button onclick="year2021()" id="btn2021" class="change btn2"></button>
+            </center>
+        </div>
+    </div>
+    <div>
+        <div id="persons">
+            <h2 class="usualTitle3">Bizdiń klıentter</h2>
+            <p>Bizdiń barlyq klıentter árqashan satyp alýǵa rıza jáne biz ony maqtan tutamyz. Bizdiń kompanıada 98 bar% oń pikirler. Dýeın Djonson, Markez Temırlan, Ýıll Smıt, Kishi Robert Daýnı, Djastın sıaqty ataqty adamdar Beıber, Ryskulbekov Nursat jáne
+                t. b sodan keıin bizden kıim satyp aldyq.</p>
+            <button class="btn2">Tolyq oqý</button>
+        </div>
+        <div class="famous">
+            <img src="../images/person1.jpg" width="300px" height="200px" alt="The picture was not found">
+            <img src="../images/person2.jpg" width="300px" height="200px" alt="The picture was not found">
+        </div>
+    </div>
+    <div id="aboutUs">
+        <h2 class="usualTitle2">Kompanıa týraly</h2>
+        <div class="infa">
+            <h2 class="usualTitle4 _anim_counter1">0</h2>
+            <p>BAQYTTY KLIENTTER</p>
+        </div>
+        <div class="infa">
+            <h2 class="usualTitle4 _anim_counter2">0</h2>
+            <p>JAQSY PIKIRLER</p>
+        </div>
+        <div class="infa">
+            <h2 class="usualTitle4 _anim_counter3">0</h2>
+            <p>qyzmetkerler</p>
+        </div>
+        <div class="infa">
+            <h2 class="usualTitle4 _anim_counter4">0</h2>
+            <p>Jumys kúnderi</p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="foot_block">
+                <hr id="line2" noshade="">
+                <h4>Kazakhstan</h4>
+                <p class="foot_content">Jańa gambýrgerler:<span class="blue"> +7-(777)-777-7777</span></p>
+                <p class="foot_content">Service:<span class="blue"> +7-(705)-702-4512</span></p>
+                <p class="foot_content">Shaǵymdar:<span class="blue"> +7-(747)-231-9783</span></p>
+                <p class="foot_content">Ázirleýshi:<span class="blue"> +7-(747)-231-0000</span></p>
+                <a target="_blank" href="https://www.instagram.com/rodnoiburger/"><img src="../images/insta.png" class="icons" alt="The picture was not found"></a>
+                <a target="_blank" href="https://www.instagram.com/rodnoiburger/"><img src="../images/facebook.png" class="icons" alt="The picture was not found"></a>
+                <a target="_blank" href="https://wa.me/87072563950"> <img src="../images/whatsapp.png" class="icons" alt="The picture was not found"></a>
+            </div>
+            <div class="weather-card">
+                <div class="city-name">xxx</div>
+                <div class="weather-icon">☁️</div>
+                <div class="temperature">000°C</div>
+                <div class="weather-description">Cloudy with a chance of rain</div>
+            </div>
+            <div class="foot_block">
+                <hr id="line2" noshade="">
+                <h4>Jumys ýaqyty</h4>
+                <p class="foot_content">Monday: 09:00 - 19:00</p>
+                <p class="foot_content">Tuesday: 09:00 - 19:00</p>
+                <p class="foot_content">Wednesday: 09:00 - 19:00</p>
+                <p class="foot_content">Thursday: 09:00 - 19:00</p>
+                <p class="foot_content">Friday :<span class="blue"> 09:00 - 20:00</span></p>
+                <p class="foot_content">Saturday: 09:00 - 18:00</p>
+                <p class="foot_content">Sunday: 09:00 - 18:00</p>
+            </div>
+            <div class="foot_block">
+                <hr id="line2" noshade="">
+                <h4>Biz qaıda ornalasqanbyz</h4>
+                <p class="foot_content">Almaty Manasa street </p>
+                <div id="map"></div>
+            </div>
+        </div>
+        <div>
+            <hr id="line3" noshade="">
+            <span class="lastinfa">&copy; 2023 </span>
+            <a href="../Page1/index1.html" class="lastinfa"><span>Up&#9650;</span></a>
+        </div>
+    </footer>
+    <script src="/static_functions/scriptMap.js"></script>
+    <script src="/static_functions/change.js"></script>
+    <script src="/static_functions/weather.js"></script>
+</body>
+</html>

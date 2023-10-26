@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Big Beef Burger",
+    "price": "600 тг",
+    "img": "https://i0.wp.com/nevafood.ru/wp-content/uploads/2017/07/burger-ayam.jpg"
+  },
+  {
+    "name": "Rodnoi Combo",
+    "price": "1900 тг",
+    "img": "https://cdn.sanity.io/images/2mx4ksj6/production/e0a87bbddb6c7ad279b9d5019f5be329baebb34b-1080x1080.png"
+  },
+  {
+    "name": "Chicken Cheese Burger",
+    "price": "1000 тг",
+    "img": "https://www.burgerking.com.mx/wp-media-folder-bk-mex//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/3/Whopper-con-Queso-1.png"
+  },
+  {
+    "name": "Fish Burger",
+    "price": "1100 тг",
+    "img": "https://www.burgerking.com.sg/upload/image/Product/19/FishBurger.png"
+  },
+  {
+    "name": "Double Cheese Burger",
+    "price": "1500 тг",
+    "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Main/WEB_800x600_ALC_14.png"
+  },
+  {
+    "name": "Chicken Nuggets",
+    "price": "1100 тг",
+    "img": "https://aganila.com/wp-content/uploads/2022/05/kindpng_6966827.png"
+  }
+]

@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+header {
+    margin-top: -73px;
+    position: fixed;
+    background-color: #fc2803;
+    height: 84px;
+    width: 101%;
+    box-shadow: 0 13px 4px -9px rgba(207, 207, 207, 0.4);
+    z-index: 1;
+    margin-left: -8px;
+}
+
+body {
+    background-color: white;
+}
+
+#logo {
+    padding: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color: #fcba03;
+    background: #fc2803;
+    padding: 25.6px;
+    position: relative;
+    bottom: 57px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    margin-left: -6px;
+}
+
+.menu:after {
+    display: block;
+    /*блок элемента*/
+    position: absolute;
+    /*абсолютная позиция*/
+    left: 0;
+    /*направление подчеркивания*/
+    width: 0;
+    /*длинна линии до наведения курсора*/
+    height: 2px;
+    /*ширина линии*/
+    background-color: white;
+    /*цвет линии*/
+    content: "";
+    /*отстутвует*/
+    transition: 0.7s;
+    /*задаём время анимации*/
+}
+
+.menu:hover:after,
+.menu:focus:after {
+    width: 100%;
+    /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.menu:hover {
+    color: white;
+    transition: 0.7s;
+}
+
+#here {
+    color: white;
+}
+
+.dropbutton {
+    color: white;
+    background: #fc2803;
+    padding: 25.6px;
+    transition: 0.2s linear;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    border: none;
+    position: relative;
+    left: 1375px;
+    bottom: 105.5px;
+}
+
+.dropdown {
+    position: relative;
+    /*длина элементов будет относительно этой*/
+    display: inline-block;
+    /*Только при наведении на элемент*/
+}
+
+.dropelements {
+    display: none;
+    position: relative;
+    left: 1376px;
+    bottom: 105.5px;
+    width: 100%;
+    box-shadow: 3px 5px 11px 0px rgba(207, 207, 207, 0.4);
+    z-index: 1;
+}
+
+.dropelements a {
+    color: white;
+    background: black;
+    padding: 8px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    display: block;
+}
+
+.dropelements a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    border: 2px solid #094D74;
+}
+
+.dropdown:hover .dropelements {
+    display: block;
+}
+
+.dropdown:hover .dropbutton {
+    color: black;
+    /**/
+    background: white;
+    /**/
+    transition: 0.5s;
+}
+
+
+/*Подвал сайта (footer)*/
+
+footer {
+    width: 100%;
+    height: 550px;
+    background-color: #fc2803;
+    margin-top: 70px;
+}
+
+.foot_block {
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 25px;
+}
+
+.foot_block:first-child {
+    position: relative;
+    bottom: 45px;
+}
+
+.foot_block:last-child {
+    position: relative;
+    top: -215px;
+}
+
+.foot_content {
+    color: white;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+}
+
+#line2 {
+    width: 155px;
+    border: 1px solid white;
+    float: left;
+}
+
+#line3 {
+    width: 1200px;
+    border: 1px solid gray;
+}
+
+footer div:last-child {
+    position: relative;
+    top: -75px;
+    margin-bottom: -245px;
+}
+
+#map {
+    width: 380px;
+    height: 305px;
+    position: relative;
+    top: 0px;
+}
+
+.icons {
+    width: 40px;
+    margin: 5px;
+}
+
+.lastinfa {
+    margin-left: 25px;
+    color: white;
+    font-family: calibri;
+}
+
+.lastinfa:nth-child(2) {
+    margin-left: 180px;
+}
+
+.lastinfa:nth-child(3) {
+    margin-left: 540px;
+}
+
+.blue {
+    color: #fcba03;
+}
+
+.orange {
+    color: #fcba03;
+}
+
+#big_img {
+    background: url(https://thumbs.dreamstime.com/z/burger-french-fries-box-paper-cup-cola-combo-discount-advertisement-street-fast-food-menu-hand-drawn-high-quality-c-121594840.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+    top: 350px;
+    letter-spacing: 10px;
+}
+
+#delivery p {
+    position: relative;
+    bottom: 55px;
+    font-family: calibri;
+}
+
+#delivery img,
+#delivery p,
+.items_counter {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.items_control {
+    color: white;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    margin-left: -3px;
+    background-color: #666666;
+    border-radius: 5px;
+    position: relative;
+    left: 122px;
+    bottom: 55px;
+}
+
+.items_control:hover {
+    cursor: pointer;
+    background-color: #888888;
+    transition: 0.3s;
+}
+
+#line_1 {
+    width: 320px;
+    border: 1px solid #777777;
+}
+
+h5 {
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    margin-top: 125px;
+}
+
+.best {
+    display: inline-block;
+    width: 300px;
+    height: 512px;
+    background-color: #fafafa;
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+    margin-top: 55px;
+}
+
+.best:first-child {
+    margin-left: 222px;
+}
+
+.best img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.best p {
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.best h5 {
+    text-align: center;
+    font-family: calibri;
+    color: #fcba03;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+#test {
+    text-align: center;
+    font-family: calibri;
+    color: #fcba03;
+    font-size: 100px;
+    margin-top: 7px;
+}
+
+#buy {
+    width: 140px;
+    height: 40px;
+    background-color: #fcba03;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    position: relative;
+    left: 78px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+#buy:hover {
+    background-color: white;
+    color: #8F0368;
+    transition: 0.3s;
+    border: 2px solid #8F0368;
+}
+
+#delivery {
+    position: absolute;
+    margin-left: 50px;
+    width: 400px;
+    height: auto;
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+}
+
+#all_goods,
+#delivery {
+    display: inline-block;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #fcba03;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #fcba03;
+    border: 2px solid #fcba03;
+    transition: 0.3s;
+}
+
+#total {
+    position: relative;
+    top: 0px;
+}
+
+#total_price {
+    margin-bottom: 21px;
+}
+
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #555555;
+    padding-left: 15px;
+    font-size: 21px;
+}
+
+.stars {
+    width: 160px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+}
