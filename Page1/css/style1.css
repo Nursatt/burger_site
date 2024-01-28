@@ -48,7 +48,7 @@ a {
 	color: white; /*цвет текста*/
 }
 .dropbutton {
-  color: white;  /*цвет текста*/
+  color: rgb(135, 108, 108);  /*цвет текста*/
   background: #fc2803; /*цвета фона*/
   padding: 25.6px;   /*отступ*/
   transition: 0.2s linear; /*задержка*/	
