@@ -59,7 +59,7 @@ a {
 }
 
 .dropelements {
-    display: none;
+    display: block;
     position: relative; left: 1376px; bottom: 105.5px;
  	 width: 100%; /*Длина*/
     box-shadow: 3px 5px 11px 0px rgba(207, 207, 207, 0.4);
